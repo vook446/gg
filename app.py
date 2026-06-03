@@ -989,7 +989,7 @@ def shopify_checker():
             "Price": float(price) if price.replace('.', '', 1).isdigit() else 0.0,
             "Response": clean_response,
             "Status": success,
-            "Dev": "DrGaM DeV",
+            "Dev": "Abu Asd",
             "cc": cc_string
         }
         
@@ -1001,7 +1001,7 @@ def shopify_checker():
             "status": False,
             "Gateway": "UNKNOWN",
             "Price": 0.0,
-            "Dev": "DrGaM DeV",
+            "Dev": "Abu Asd",
             "Response": f"ERROR: {str(e)}",
             "cc": request.args.get('cc', '')
         }), 500
