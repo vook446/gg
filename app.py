@@ -939,7 +939,7 @@ async def process_card_async(cc, mes, ano, cvv, site_url, variant_id=None, proxy
 
 app = Flask(__name__)
 
-@app.route('/DrGaM', methods=['GET'])
+@app.route('/app', methods=['GET'])
 def shopify_checker():
     try:
         site = request.args.get('site')
